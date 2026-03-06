@@ -46,23 +46,5 @@ Bash
 python -m uvicorn src.main:app --reload
 View the interactive docs at: http://127.0.0.1:8000/docs
 
-Key Points: Making it Understandable
-Clear Headings: Uses standard symbols (🚀, 🛠️) to make sections visually distinct and easy to find.
 
-Problem/Solution: Explains that it uses JWT specifically to keep tasks "private," which shows you understand the purpose of the code.
 
-Tech Stack Breakdown: Lists the tools used so the reader knows your technical range immediately.
-
-Simple Commands: Provides exact bash commands so even a beginner can run your project.
-
-URL Reference: Includes the direct link to /docs so the reviewer doesn't have to guess where to go.
-
-One-to-Many Mention: Explicitly mentions the database relationship, which is a key academic requirement.
-
-Safety Warning: Mentions the .env file to show you understand best practices for protecting secrets.
-
-Visual Hierarchy: Uses bold text for library names to make the "Tech Stack" section scannable.
-
-Professional Tone: Balances a friendly "Welcome" with technical accuracy.
-
-Final Polish: Adding this file transforms your "code folder" into a "software project."
