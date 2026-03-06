@@ -18,27 +18,19 @@ class Task(TaskBase):
 
     class Config:
         from_attributes = True
-
-# --- User Schemas ---
 class UserBase(BaseModel):
     email: EmailStr
-
 class UserCreate(UserBase):
     password: str
     role: Optional[str] = "user" # user or admin
-
 class User(UserBase):
     id: int
     role: str
-    is_active: bool
-    
+    is_active: bool   
     class Config:
         from_attributes = True
-
-# --- Token Schemas (For Auth) ---
 class Token(BaseModel):
     access_token: str
     token_type: str
-
 class TokenData(BaseModel):
     email: Optional[str] = None
